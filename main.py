@@ -26,7 +26,7 @@ load_dotenv()
 page_url = os.getenv("URL")
 div_id = os.getenv("DIV_ID")
 
-url = page_url  # Sostituisci con l'URL della pagina che vuoi monitorare
+url = page_url 
 past_hash = None
 
 while True:
